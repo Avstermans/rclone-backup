@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rclone backup</title>
+<meta name="description" content="A private backup tool that copies its owner's files to his own Google Drive.">
+<style>
+  :root { --bg: #ffffff; --ink: #1b2430; --muted: #5b6573; --line: #d5dce4; --link: #1f5fbf; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14181f; --ink: #e6eaf0; --muted: #9aa4b2; --line: #2c3440; --link: #7fb0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); }
+  a { color: var(--link); }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>rclone backup</h1>
+  <p class="muted">A private backup tool. It is not a service, and it is not offered to anyone.</p>
+
+  <p>rclone backup is how one person backs up his own files. Every night, the free, open-source program
+  <a href="https://rclone.org">rclone</a> copies files from his own computer to his own Google Drive.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Copies new and changed files from the owner's computer to the owner's Google Drive.</li>
+    <li>Never deletes anything from Google Drive.</li>
+    <li>Signs in only to the owner's Google account, with the owner's permission.</li>
+  </ul>
+
+  <p>Nobody else can sign in to it or use it.</p>
+
+  <footer><a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
